@@ -1,0 +1,24 @@
+<?= $this->doctype(); ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+		<? $this->headlink()->appendStylesheet('/css/screen.css' , 'screen, projection'); ?>
+		<? $this->headlink()->appendStylesheet('/css/ie.css' , 'screen, projection' , 'IE'); ?>
+		<? $this->headlink()->appendStylesheet('/css/print.css' , 'print'); ?>
+		<? $this->headlink()->appendStylesheet('/css/main.css'); ?>
+
+		<?= $this->headlink(); ?>
+		<?= $this->headScript()->appendFile('/js/jquery.js'); ?>
+	</head>
+	<body>
+		<div class="container" >
+			<div class="push-1 span-14 maincontent">
+				<?= $this->layout()->content; ?>
+			</div>
+			
+		</div>
+
+	</body>
+</html>
