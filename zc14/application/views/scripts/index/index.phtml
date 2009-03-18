@@ -1,0 +1,20 @@
+<h2>Rendering Partials</h2>
+<table>
+	<tr>
+		<th>
+		ID
+		</th>
+		<th>
+		Name
+		</th>
+	</tr>
+<?php
+$alt = true;
+foreach($this->items as $item)
+{
+	$alt = !$alt;
+	echo $this->partial('partials/row.phtml', array("alt" => $alt , "item" => $item));
+}
+?>
+
+</table>
