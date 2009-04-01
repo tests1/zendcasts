@@ -1,0 +1,5 @@
+#Tue Mar 31 23:34:47 EDT 2009
+eclipse.preferences.version=1
+org.eclipse.php.core.contextRoot=
+org.eclipse.php.core.defaultEncoding=
+org.eclipse.php.core.includePath=<?xml version\="1.0" encoding\="UTF-8"?>\n<includepath>\n\t<includepathentry kind\="var" path\="FRAMEWORK_1.7_HOME" resource\="zc15" createdReference\="false" contentKind\="source">\n</includepathentry>\n</includepath>\n
