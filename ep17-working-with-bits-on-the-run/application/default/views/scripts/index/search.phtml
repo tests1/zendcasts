@@ -1,0 +1,20 @@
+
+Search term: '<?= $this->escape($this->searchTerm); ?>'
+<br/>
+<?= $this->partial('partials/searchbox.phtml'); ?>
+<table>
+	<tr>
+		<th>
+		</th>
+		<th>
+			title
+		</th>		
+	</tr>
+<?php
+foreach ( $this->mediafiles->mediafile as $v )
+{
+	echo $this->partial('partials/mediafileRow.phtml',array("video" => $v->attributes()));
+}
+?>
+
+</table>
