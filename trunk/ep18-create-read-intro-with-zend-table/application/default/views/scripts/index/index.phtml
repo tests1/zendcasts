@@ -1,0 +1,10 @@
+<h2>Insert</h2>
+<?= $this->partial('partials/userForm.phtml', array(
+		'name' => '',
+		'email' => ''
+))?>
+
+<h2>All Users</h2>
+<dl>
+<?= $this->partialLoop('partials/userRow.phtml', $this->users); ?>
+</dl>
