@@ -1,0 +1,4 @@
+<h2><?= $this->contactType->name; ?> Users</h2>
+<dl>
+<?= $this->partialLoop('partials/userRow.phtml', $this->users); ?>
+</dl>

@@ -1,0 +1,9 @@
+<h2>Update</h2>
+<?= $this->partial('partials/userForm.phtml',
+	array(
+		'name'  => $this->user->name,
+		'email' => $this->user->email,
+		'contacttype_id' => $this->user->contacttype_id,
+		'contactTypes' => $this->contactTypes
+	));
+?>
