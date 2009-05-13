@@ -1,0 +1,11 @@
+<h2> Listing of Tasks</h2>
+
+<?php foreach ($this->tasks as $task): ?>
+	<h1><?= $task['name'];?></h1>
+	<ul>
+	<?php foreach ($task['users'] as $user):?>
+		<li><?= $user; ?></li>
+	<?php endforeach;?>
+	</ul>
+	
+<?php endforeach;?>

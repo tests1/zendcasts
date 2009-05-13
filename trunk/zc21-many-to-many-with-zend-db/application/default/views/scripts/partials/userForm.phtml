@@ -1,0 +1,25 @@
+<form id="frm" method="POST">
+	<label for="name" >name:</label>
+	<input type="text" value="<?= $this->name ?>" name="name" id="name" />
+	
+	<label for="email" >email:</label>
+	<input type="text" value="<?= $this->email ?>" name="email" id="email" />
+	
+	<label for="contactType">contact type:</label>
+	<select id="contactType" name="contactType">
+		<option value=""> -- </option>
+		
+		<?php foreach ($this->contactTypes as $type): ?>
+			<option value="<?= $type->id ?>" 
+			<?= ($type->id == $this->contacttype_id) ? "SELECTED='1' " : "" ?>>
+			 <?= $type->name; ?>
+			</option>
+		<?php endforeach; ?>
+	</select>	
+
+	
+	
+	
+
+	<input type="submit" name="btsubmit" value="submit" id="btsubmit" />
+</form>

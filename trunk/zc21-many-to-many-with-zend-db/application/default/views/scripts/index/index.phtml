@@ -1,0 +1,19 @@
+
+<h2>Insert</h2>
+<?= $this->partial('partials/userForm.phtml', 
+array(	'name' => '', 
+		'email'=> '',
+		'contacttype_id' => '',
+		'contactTypes' => $this->contactTypes
+)); ?>
+<h2> Browse by Contact Type</h2>
+<ul>
+	<?php foreach ($this->contactTypes as $contact): ?>
+		<li><a href="/index/contact/<?= $contact->name; ?>"><?= $contact->name ?></a></li>
+	<?php endforeach;?>
+</ul>
+
+<h2>All Users</h2>
+<dl>
+<?= $this->partialLoop('partials/userRow.phtml', $this->users); ?>
+</dl>
