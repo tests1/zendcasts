@@ -1,0 +1,47 @@
+#again define localhost 
+
+NameVirtualHost localhost:80
+
+<VirtualHost 127.0.0.1>
+   DocumentRoot c:/wamp/www
+   ServerName localhost
+   ServerAlias localhost
+</VirtualHost>
+
+#first Domain
+NameVirtualHost dev.local
+<VirtualHost 127.0.0.1:80>
+ServerName dev.local
+ServerAlias dev.local 
+DocumentRoot C:/Sites/zfapp/public
+ErrorLog "C:/Sites/zfapp/public/error.log"
+CustomLog C:/Sites/zfapp/public/access.log common
+<Directory "C:/Sites/zfapp/public">
+    Options -Indexes FollowSymLinks MultiViews
+    AllowOverride All
+    <IfModule mod_access.c>
+    Order allow,deny
+    Allow from all
+    </IfModule>
+</Directory>
+</VirtualHost>
+
+#Second Domain
+NameVirtualHost pro.local
+<VirtualHost 127.0.0.1:80>
+ServerNaeme pro.local
+ServerAlias pro.local 
+DocumentRoot C:/Sites/zfapp/public
+ErrorLog "C:/Sites/zfapp/public/error.log"
+CustomLog C:/Sites/zfapp/public/access.log common
+<Directory "C:/Sites/zfapp/public">
+    Options -Indexes FollowSymLinks MultiViews
+    AllowOverride All
+    <IfModule mod_access.c>
+    Order allow,deny
+    Allow from all
+    </IfModule>
+</Directory>
+</VirtualHost>
+# as you can see i have created two local domains and you might create as much as you want each domain for each ZF app.
+

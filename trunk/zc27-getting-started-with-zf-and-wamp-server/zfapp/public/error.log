@@ -1,0 +1,87 @@
+[Mon Jun 15 22:15:29 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 22:15:29 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 22:15:32 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 22:17:16 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 22:17:17 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 22:17:17 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 22:17:17 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 22:17:17 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 22:25:08 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 22:26:14 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:26:35 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:26:36 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:26:36 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:26:37 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:15 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:16 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:16 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:16 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:16 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:16 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:17 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:17 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:17 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:17 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:46 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:46 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:47 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:47 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:47 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:48 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:28:48 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:06 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:07 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:07 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:07 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:08 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:08 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:21 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:22 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:22 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:23 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:23 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:23 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:43 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:44 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:44 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:45 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:45 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:29:45 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:30:18 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:30:19 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:30:19 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:30:19 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:30:19 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:33:37 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:33:38 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:33:38 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:33:38 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:33:38 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:35:16 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:35:17 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:35:17 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:35:17 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:35:17 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:35:17 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:35:18 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:25 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:25 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:25 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:26 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:26 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:26 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:26 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:27 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:27 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:27 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:28 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:37:58 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command '!RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 22:38:09 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:38:09 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:38:09 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:38:09 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:38:10 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:38:10 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:38:10 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
+[Mon Jun 15 22:38:26 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command '!RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 22:40:26 2009] [error] [client 127.0.0.1] client denied by server configuration: C:/sites/zfapp/public/
