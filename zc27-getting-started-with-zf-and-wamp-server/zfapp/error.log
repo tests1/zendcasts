@@ -1,0 +1,3 @@
+[Mon Jun 15 21:11:40 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 21:11:40 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
+[Mon Jun 15 21:11:43 2009] [alert] [client 127.0.0.1] C:/sites/zfapp/public/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration
