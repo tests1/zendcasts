@@ -1,0 +1,61 @@
+<!DOCTYPE html "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+      <title>Introduction to Google's APIs</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+   <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=<?= $this->googleMapsKey; ?>&sensor=false"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+
+    function initialize() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map_canvas"));
+       map.setCenter(new GLatLng(0, 0), 2);
+
+        map.setUIToDefault();
+
+        // Create a base icon for all of our markers that specifies the
+        // shadow, icon dimensions, etc.
+        var baseIcon = new GIcon(G_DEFAULT_ICON);
+        baseIcon.shadow = "http://www.google.com/mapfiles/shadow50.png";
+        baseIcon.iconSize = new GSize(20, 34);
+        baseIcon.shadowSize = new GSize(37, 34);
+        baseIcon.iconAnchor = new GPoint(9, 34);
+        baseIcon.infoWindowAnchor = new GPoint(9, 2);
+
+        // Creates a marker whose info window displays the letter corresponding
+        // to the given index.
+        function createMarker(point, index, dto) {
+          var letter = String.fromCharCode("A".charCodeAt(0) + index);
+          var letteredIcon = new GIcon(baseIcon);
+          letteredIcon.image = "http://www.google.com/mapfiles/marker" + letter + ".png";
+
+          markerOptions = { icon:letteredIcon };
+          var marker = new GMarker(point, markerOptions);
+
+          GEvent.addListener(marker, "click", function() {
+            marker.openInfoWindowHtml("<b> (" + letter + ")</b><br/>"
+                    +"Address: "+dto.address+"<br/>"
+                    +"Name: "+dto.firstname+" "+dto.lastname+"<br/>"
+                    +"email: " + dto.email+"<br/>"
+                    );
+          });
+          return marker;
+        }
+
+	<?php foreach ($this->rows as $k=>$row): ?>
+		var latlng = new GLatLng(<?= $row['latitude']; ?>, <?= $row['longitude']; ?>);
+		map.addOverlay(createMarker(latlng,<?=($k + 1);?>,<?= Zend_Json::encode($row) ?>));
+	<?php endforeach;?>
+
+      }
+    }
+
+    </script>
+  </head>
+    <body onload="initialize()" onunload="GUnload()">
+    <h1>Introduction to Google's API</h1>
+    <div id="map_canvas" style="width: 800px; height: 500px"></div>
+    </body>
+</html>
