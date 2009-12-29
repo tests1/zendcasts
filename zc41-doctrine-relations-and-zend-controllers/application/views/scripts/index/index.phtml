@@ -1,0 +1,23 @@
+<form id="frm" action="" method="post">
+    <input type="text" id="name" name="name" value="name" />
+    <input type="text" id="email" name="email" value="email" />
+    <select name="car_id" id="car">
+        <?php foreach(Car::findAll() as $car): ?>
+            <option value="<?= $car->id; ?>"><?= $car->brand; ?></option>
+        <?php endforeach; ?>
+    </select>
+
+    <input type="submit" name="submit" value="add user" />
+</form>
+<ul>
+<?php foreach (Car::findAll() as $car): ?>
+    <li>
+<?= $car->brand; ?>
+     <ul>
+    <?php foreach($car->Users as $user): ?>
+        <li><?= $user->name; ?></li>
+    <?php endforeach; ?>
+    </ul>
+    </li>
+<?php endforeach; ?>
+</ul>
