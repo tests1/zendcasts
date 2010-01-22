@@ -1,0 +1,14 @@
+options:
+  type: INNODB
+  collate: utf8_general_ci
+  charset: utf8
+
+User:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    username: string(300)
+    password: string()
+    name: "Jon Lebensold"
