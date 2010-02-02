@@ -11,4 +11,4 @@ User:
       autoincrement: true
     username: string(300)
     password: string()
-    name: "Jon Lebensold"
+    name: string() 
