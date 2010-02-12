@@ -1,0 +1,6 @@
+Model_User:
+  User_1:
+    username: zc
+    password: pw
+    name: "Jon Lebensold"
+    email: "jon@lebensold.ca"
