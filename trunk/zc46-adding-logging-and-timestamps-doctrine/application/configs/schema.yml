@@ -1,0 +1,40 @@
+options:
+  type: INNODB
+  collate: utf8_general_ci
+  charset: utf8
+
+User:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    username: string()
+    password: string()
+    name: string()
+    email: string()
+  actAs:
+    Timestampable:
+      created:
+        name: createdAt
+        type: timestamp
+        format: Y-m-d H:i:s
+      updated:
+        name: updatedAt
+        type: timestamp
+        format: Y-m-d H:i:s
+
+
+Log:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    message: string()
+  actAs:
+    Timestampable:
+      created:
+        name: createdAt
+        type: timestamp
+        format: Y-m-d H:i:s

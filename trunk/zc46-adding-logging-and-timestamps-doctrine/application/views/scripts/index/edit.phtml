@@ -1,0 +1,6 @@
+<form id="frm" action="" method="post">
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" value="<?= Zend_Auth::getInstance()->getIdentity()->email; ?>" />
+    <input type="submit" value="Update email" name="submit" />
+</form>
+<a href="/index/logout">logout</a>
