@@ -1,0 +1,22 @@
+<?php echo $this->doctype(); ?>
+<html>
+    <head>
+
+        <?php
+            $this->headLink()
+                ->prependStylesheet('/css/global.css')
+                ->appendStylesheet('/css/ui-lightness/jquery-ui-1.7.3.custom.css');
+        ?>
+        <?php echo $this->headLink(); ?>
+        <?php echo $this->jQuery(); ?>
+    </head>
+    <body>
+        <div class="header">
+        </div>
+        <div class="content">
+            <?php echo $this->layout()->content; ?>
+        </div>
+        <div class="footer">            
+        </div>
+    </body>
+</html>
