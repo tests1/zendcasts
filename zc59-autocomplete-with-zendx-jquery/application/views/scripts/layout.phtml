@@ -1,0 +1,23 @@
+<?php echo $this->doctype(); ?>
+<html>
+    <head>
+        <?php
+            $this->headLink()
+                ->prependStylesheet('/css/global.css')
+                ->appendStylesheet('/css/smoothness/jquery-ui-1.8.2.custom.css');
+        ?>
+        <?php echo $this->headLink(); ?>
+        <?php echo $this->jQuery()
+                        ->setVersion('1.4.2')
+                        ->setUiVersion('1.8.2'); ?>
+    </head>
+    <body>
+        <div class="header">
+        </div>
+        <div class="content">
+            <?php echo $this->layout()->content; ?>
+        </div>
+        <div class="footer">            
+        </div>
+    </body>
+</html>
