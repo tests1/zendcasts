@@ -1,0 +1,11 @@
+
+<h1>Zend Feed Reader</h1>
+<h2>Some videos to get you started:</h2>
+
+<ul>
+    <?php foreach($this->gettingStarted as $uri => $title): ?>
+    <li>
+        <a href="<?= $uri; ?>"><?= $title; ?></a>
+    </li>
+    <?php endforeach; ?>
+</ul>
