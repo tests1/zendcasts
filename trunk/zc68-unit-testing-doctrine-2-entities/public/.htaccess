@@ -6,4 +6,4 @@ RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^.*$ - [NC,L]
 RewriteRule ^.*$ index.php [NC,L]
 
-php_value include_path ./../../ZendFramework/ZendFramework-1.11.2-minimal/library
+php_value include_path ./../../ZendFramework/ZendFramework-1.10.6-minimal/library
