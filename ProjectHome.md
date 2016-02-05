@@ -1,0 +1,1 @@
+This project is a collection of all the sample code offered as part of the zendcasts series. Starting from episode 14.
